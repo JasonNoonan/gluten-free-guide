@@ -49,6 +49,11 @@ Then visit `http://localhost:4000`.
 - Toolchain pinned via `.mise.toml`
 - Dockerized Postgres with persistent volume via `docker-compose.yml`
 
+## Architecture notes
+
+- NOO-14 domain architecture: `docs/architecture/noo-14-domain-model.md`
+- ADR 0001 (domain model and boundaries): `docs/adr/0001-domain-model-and-boundaries.md`
+
 ## Local database commands
 
 - Start Postgres: `make db-up`
